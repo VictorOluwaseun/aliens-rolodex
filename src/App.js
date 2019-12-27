@@ -18,11 +18,7 @@ class App extends Component {
   return (
    <>
     <div className="App">
-     <CardList>
-      {this.state.aliens.map(alien => (
-       <h1 key={alien.id}>{alien.name}</h1>
-      ))}
-     </CardList>
+     <CardList aliens={this.state.aliens} />
     </div>
    </>
   );
