@@ -1,10 +1,11 @@
 import React from "react";
 import "./card-list.style.css";
+import { Card } from "./../card/card.component";
 
 export const CardList = ({ aliens }) => (
  <div className="card-list">
   {aliens.map(alien => (
-   <h1 key={alien.id}>{alien.name}</h1>
+   <Card key={alien.id} alien={alien} />
   ))}
  </div>
 );
