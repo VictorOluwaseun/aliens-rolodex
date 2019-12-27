@@ -15,11 +15,13 @@ class App extends Component {
 
  render() {
   return (
-   <div className="App">
-    {this.state.aliens.map(alien => (
-     <h1 key={alien.id}>{alien.name}</h1>
-    ))}
-   </div>
+   <>
+    <div className="App">
+     {this.state.aliens.map(alien => (
+      <h1 key={alien.id}>{alien.name}</h1>
+     ))}
+    </div>
+   </>
   );
  }
 }
