@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { CardList } from "./components/card-list/card-list.component";
-import "./App.css";
 import SearchBox from "./components/search-box/search-box.component";
+import "./App.css";
 
 class App extends Component {
  constructor() {
@@ -29,6 +29,7 @@ class App extends Component {
     <div className="App">
      <h1>Aliens Rolodex</h1>
      <SearchBox onChange={this.handleChange} placeholder="search aliens" />
+
      {!aliens.length && <h2 className="loading">Loading...</h2>}
      {/* {!filteredAliens.length && <h2>No Alien with the name {searchField}</h2>} */}
      {/* <CardList aliens={filteredAliens.length ? filteredAliens : aliens} /> */}
