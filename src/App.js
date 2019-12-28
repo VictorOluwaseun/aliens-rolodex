@@ -27,8 +27,9 @@ class App extends Component {
   return (
    <>
     <div className="App">
+     <h1>Aliens Rolodex</h1>
      <SearchBox onChange={this.handleChange} placeholder="search aliens" />
-     {!aliens.length && <h2>Loading...</h2>}
+     {!aliens.length && <h2 className="loading">Loading...</h2>}
      {/* {!filteredAliens.length && <h2>No Alien with the name {searchField}</h2>} */}
      {/* <CardList aliens={filteredAliens.length ? filteredAliens : aliens} /> */}
      <CardList aliens={filteredAliens} />
