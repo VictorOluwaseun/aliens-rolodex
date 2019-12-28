@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/aliens-rolodex/static/css/main.9028160f.chunk.css",
+    "main.js": "/aliens-rolodex/static/js/main.ca229ec5.chunk.js",
+    "main.js.map": "/aliens-rolodex/static/js/main.ca229ec5.chunk.js.map",
+    "runtime-main.js": "/aliens-rolodex/static/js/runtime-main.ca66561f.js",
+    "runtime-main.js.map": "/aliens-rolodex/static/js/runtime-main.ca66561f.js.map",
+    "static/js/2.c34d4464.chunk.js": "/aliens-rolodex/static/js/2.c34d4464.chunk.js",
+    "static/js/2.c34d4464.chunk.js.map": "/aliens-rolodex/static/js/2.c34d4464.chunk.js.map",
+    "index.html": "/aliens-rolodex/index.html",
+    "precache-manifest.18c3fe36bdc09c4b7d0eeb15ba0026b5.js": "/aliens-rolodex/precache-manifest.18c3fe36bdc09c4b7d0eeb15ba0026b5.js",
+    "service-worker.js": "/aliens-rolodex/service-worker.js",
+    "static/css/main.9028160f.chunk.css.map": "/aliens-rolodex/static/css/main.9028160f.chunk.css.map",
+    "static/js/2.c34d4464.chunk.js.LICENSE": "/aliens-rolodex/static/js/2.c34d4464.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca66561f.js",
+    "static/js/2.c34d4464.chunk.js",
+    "static/css/main.9028160f.chunk.css",
+    "static/js/main.ca229ec5.chunk.js"
+  ]
+}
