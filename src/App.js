@@ -5,7 +5,7 @@ import "./App.css";
 class App extends Component {
  constructor() {
   super();
-  this.state = { aliens: [] };
+  this.state = { aliens: [], searchField: "" };
  }
 
  componentDidMount() {
@@ -18,6 +18,15 @@ class App extends Component {
   return (
    <>
     <div className="App">
+     <input
+      type="search"
+      placeholder="search aliens"
+      onChange={e => {
+       this.setState({ searchField: e.target.value }, () =>
+        console.log(this.state.searchField)
+       );
+      }}
+     />
      <CardList aliens={this.state.aliens} />
     </div>
    </>
